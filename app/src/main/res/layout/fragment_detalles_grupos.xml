@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detallesGrupo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context="com.defvnygm.feliz.defvnygmv1.DetallesGruposFragment">
+
+    <!--android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/color"
+        app:titleTextColor="@android:color/white"></android.support.v7.widget.Toolbar-->
+
+    <ImageView
+        android:id="@+id/imagenDetalleId"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/f1"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/descripcionId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/tituloForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:text="¿Desea Contactar a este grupo?"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <!--TextView
+        android:id="@+id/Textingrese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:text="¡Ingrese sus datos!"
+        android:layout_marginBottom="15dp"/-->
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactar Grupo"
+        android:onClick="onClick"/>
+
+
+
+    <!--android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/txt_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:hint="Ingrese su nombre o nombres"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/txt_ApPaterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/apPaterno"
+            android:hint="Ingrese su apellido paterno"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/txt_apMaterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/apMaterno"
+            android:hint="Ingrese su apellido materno"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/txt_Correo"
+        android:id="@+id/txt_Correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/correo"
+            android:hint="Ingrese su correo"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/txt_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/telefono"
+            android:hint="Ingrese su telefono"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/txt_Direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/direccion"
+            android:hint="Ingrese la direccion de su evento"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout-->
+
+
+
+</LinearLayout>

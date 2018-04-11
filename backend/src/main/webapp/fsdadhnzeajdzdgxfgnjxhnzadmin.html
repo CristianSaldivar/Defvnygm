@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DEFVNY GM</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link href="images/log_1.jpg" rel="shortcut icon" type="image/jpeg"/>
+        <script src="assets/js/cerrarSesion.js"></script>
+        <script src="assets/js/registrarGenero.js"></script>
+    </head>
+    <body>
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Defvny Group Music</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menú</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li>
+                                        <a href="index.html"><input type="submit" id="btnCerrar" class="button special fit" value="Terminar Sesión" onclick="cerrarSesion()"/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Bienvenido</h2>
+                    <p></p>
+                </header>
+                <section class="wrapper style5">
+                    <div class="inner"> 
+                        <section>
+                            <div class="row">
+                                <div class="6u 12u$(medium)">
+                                    <form id="form-generos" method="post">
+
+                                        <h4>Agregar Género</h4>
+                                        <h6>TODOS LOS DATOS EN MAYÚSCULAS </h6>
+                                        <ul class="actions vertical">
+                                            <li>
+                                                <input type="text" name="genero" autofocus  id="genero" value="" placeholder="ejemplo: ORQUESTA" required pattern="[A-Z-ZÑÁÉÍÓÚÜ ]{4,20}"/>
+                                            </li>
+                                        </ul>
+                                        <ul class="actions vertical">
+                                            <li>
+                                                <textarea name="descripcion" id="descripcion" placeholder="Descripción del género..." rows="4" required></textarea>
+                                            </li>
+                                        </ul>
+                                        <ul class="actions vertical">
+                                            <li>
+                                                <input type="submit" class="button special fit" value="Agregar" id="enviar-genero"/>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div>
+                                <div class="6u 12u$(medium)">
+                                    <br/>
+                                    <br/>
+                                    <center>
+                                        <ul class="actions vertical">
+
+                                            <li><h3>Desactivar a un Grupo</h3></li>
+                                            <li><a href="catalogosadmin.html" class="button special fit">Vamos</a></li>
+
+                                        </ul>
+                                    </center>
+                                </div>
+                            </div>
+                        </section>  
+                        <br/>
+                        <br/>
+                        <section>
+                            <div class="12u 12u$(medium)">
+                                <table class="table-wrapper">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="4">Generos</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Generos</th>
+                                            <th>Descripcion</th>
+                                            <th>Editar</th>
+                                            <th>Borrar</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody-tabla-generos">
+
+                                    </tbody>
+                                </table>
+                            </div>  
+                        </section>    
+                    </div>
+                </section>
+            </article>
+        </div>
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://twitter.com/?lang=es" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/?hl=es" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; DEFVNY GM</li>
+            </ul>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+        <script src="assets/js/inicializarFirebase.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DEFVNY GM</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link href="images/log_1.jpg" rel="shortcut icon" type="image/jpeg"/>
+        <script src="assets/js/registroGrupos.js"></script>
+
+    </head>
+    <body>
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Defvny Group Music</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="generic.html">¿Quienes Somos?</a></li>
+                                    <li><a href="alcance.html">Alcance</a></li>
+                                    <li><a href="grupos.html">Grupos</a></li>
+                                    <li><a href="contacto.html">Contacto</a></li>
+                                    <!--li><a href="elements.html">Elements</a></li-->
+                                    <li><a href="registro.html">Registrate</a></li>
+                                    <li><a href="inicio.html">Iniciar Sesion</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>¿Quieres que tu grupo este en nuestro catálogo?</h2>
+                    <p>Pues solo registrate y listo</p>
+                </header>
+                <section class="wrapper style5">
+                    <div class="inner">
+                        <form id="form-grupos" method="post">
+                            <h2 style="text-align: center;">¡Datos del Representante!</h2> 
+                            <h6>TODOS LOS DATOS EN MAYÚSCULAS  </h6>
+                            <div class="row uniform">
+                                <div class="6u 12u$(xsmall)">
+                                    <input type="text" name="nombre" autofocus  id="nombre" value="" placeholder="Nombre(s): JUAN DAVID" required pattern="[A-Z-ZÑÁÉÍÓÚÜ ]{4,20}"/>
+                                </div>
+                                <div class="6u$ 12u$(xsmall)">
+                                    <input type="text" name="apPaterno" id="apPaterno" value="" placeholder="Apellido Paterno: MORA" required pattern="[A-Z-ZÑÁÉÍÓÚÜ ]{4,10}"/>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <input type="text" name="apMaterno" id="apMaterno" value="" placeholder="Apellido Materno: SOZA" required pattern="[A-Z-ZÑÁÉÍÓÚÜ ]{4,10}"/>
+                                </div>
+                                <div class="6u$ 12u$(xsmall)">
+                                    <input type="text" name="telefono" id="telefono" value="" placeholder="Telefono Lada: +52" required pattern="[0-9]{8,10}"/>
+                                </div>
+                                <div class="6u 12u$(xsmall)">
+                                    <input type="email" name="email" id="email" value="" placeholder="Correo Electronico: ejemplo@gmail.com" required/>
+                                </div>
+                                <div class="6u$ 12u$(xsmall)">
+                                    <input type="password" name="contrasena" id="contrasena" value="" placeholder="Contraseña (más de 7 digitos, menos de 14)" required/>
+                                </div>
+                                <!--div class="6u$ 12u$(xsmall)">
+                                    <input type="password" name="contrasena" id="contrasena" value="" placeholder="Repite Contraseña" required minlength="7" maxlength="14"/>
+                                </div-->
+
+                            </div>
+                            <br/>
+                            <h2 style="text-align: center;">¡Datos del Grupo!</h2> 
+
+                            <div class="row uniform">
+
+                                <div class="12u$">
+                                    <input type="text" name="nombreg" id="nombreg" value="" placeholder="Nombre del Grupo" required pattern="[A-Z-ZÑÁÉÍÓÚÜ ]{4,30}"/>
+                                </div>
+                                <div class="12u$">
+                                    Imagen del Grupo<br/><br/>
+
+                                    <input type="file" name="cargar" id="cargarBoton"/><br/><br/>
+                                    <progress value="0" max="100" id="carga">0%</progress><p>Progreso de subida</p><br/>
+                                    <p>* Favor de hacer corresponder el nombre de la imagen con el nombre del grupo</p>
+                                    <!--label class="label" for="archivo"></label><input type="file" name="archivo" id="archivo" required/-->
+
+                                </div>
+                                <div class="12u$">
+                                    <div class="select-wrapper">
+                                        <select name="genero" id="genero" onchange="cambiaGenero()" required>
+                                            <option value="">- Selecciona Género -</option>
+                                            <option value="salsa" id="salsa" name="salsa">Salsa</option>
+                                            <option value="grupero" id="grupero" name="grupero">Grupero</option>
+                                            <option value="mariachis" id="mariachis" name="mariachis">Mariachis</option>
+                                            <option value="rumba" id="rumba" name="rumba">Rumba</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="4u 12u$(small)">
+                                    <input type="radio" id="demo-priority-normal" name="demo-priority" required>
+                                    <label for="demo-priority-normal"><a href="politicas.html">Acepto Politicas de Aplicacion</a></label>
+                                </div>
+                                <div class="12u$">
+                                    <textarea name="descripcion" id="descripcion" placeholder="Descripción" rows="6" required></textarea>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="12u$">
+                                <div class="actions">
+                                    <input class="button fit special" type="submit" value="Enviar" id="enviar-info"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/?lang=es" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/?hl=es" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <!--li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li-->
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; DEFVNY GM</li><!--li>Design: <a href="http://html5up.net">HTML5 UP</a></li-->
+                </ul>
+            </footer>
+
+        </div>
+
+
+        <!-- Scripts -->
+        <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+        <script src="assets/js/inicializarFirebase.js"></script>
+        <script src="assets/js/cargarImagen.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DEFVNY GM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Salir</string>
+    <string name="inicio">Inicio</string>
+
+    <string name="nombre">Nombre(s)</string>
+    <string name="apPaterno">Apellido Paterno</string>
+    <string name="apMaterno">Apellido Materno</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Telefono</string>
+    <string name="direccion">Direccion del evento</string>
+
+    <string name="grupo1_nombre">Mariachis SHALALA</string>
+    <string name="grupo1_desc_corta">Contamos con el mejor repertorio vamos bien uniformados con la mejor calidad y afinación musical con más de 450 canciones en repertorio, 11 años nos avalan, somos 8 elementos para todo tipo de eventos social cultural empresarial.</string>
+    <string name="grupo1_desc_larga">Contamos con el mejor repertorio vamos bien uniformados con la mejor calidad y afinación musical con más de 450 canciones en repertorio, 11 años nos avalan, somos 8 elementos para todo tipo de eventos social cultural empresarial.</string>
+
+    <string name="grupo2_nombre">Mariachis Madrigal</string>
+    <string name="grupo2_desc_corta">Mariachis por la zona de Cuauhtémoc Mariachis Urgentes cercanos a Cuauhtémoc Económicos, nos ponemos a sus órdenes para amenizarte todos tus eventos con mañanitas con mariachi, música para bodas, xv años despedidas, graduaciones te brindamos el servicio las 24 horas y los 365 días del año, recuerda contratar músicos profesionales para quedarte excelente en tu siguiente evento NO te arriesgues con mariachis improvisados o personas que se disfrazan de mariachis nosotros si somos músicos profesionales y te garantizamos el éxito de tu fiesta.</string>
+    <string name="grupo2_desc_larga">Mariachis por la zona de Cuauhtémoc Mariachis Urgentes cercanos a Cuauhtémoc Económicos, nos ponemos a sus órdenes para amenizarte todos tus eventos con mañanitas con mariachi, música para bodas, xv años despedidas, graduaciones te brindamos el servicio las 24 horas y los 365 días del año, recuerda contratar músicos profesionales para quedarte excelente en tu siguiente evento.</string>
+
+    <string name="grupo3_nombre">Norteños El poder del norte</string>
+    <string name="grupo3_desc_corta">Norteños Económicos en el DF, Norteños Baratos en CDMX, Grupos de Norteños Con o Sin Equipo de Audio. Le garantizamos el mejor ambiente, Seriedad y Puntualidad. Contrataciones de Grupos Norteños, Norteño Banda, Mariachis, Marimbas, Tecladistas, Grupo Versátil.</string>
+    <string name="grupo3_desc_larga">Norteños Económicos en el DF, Norteños Baratos en CDMX, Grupos de Norteños Con o Sin Equipo de Audio. Le garantizamos el mejor ambiente, Seriedad y Puntualidad. Contrataciones de Grupos Norteños, Norteño Banda, Mariachis, Marimbas, Tecladistas, Grupo Versátil.</string>
+
+    <string name="grupo4_nombre">Estudiantina Las luces</string>
+    <string name="grupo4_desc_corta">La estudiantina ha narrado las aventuras de los universitarios y en su repertorio incluyen "El examen", de Virgilio Fernández, "De colores", "El aventón" y "El fósil". En su mitad de siglo ha grabado a Tata Nacho, Agustín Lara y Guty Cárdenas, y a sus paisanos Juventino Rosas, María Greever, Joaquín Pardavé y José Alfredo. El escenario festivo que propone la rondalla lo complementa el ballet universitario al ritmo de jazz, tango, vals peruano, guaracha, danzón y cumbia.
+                                ¡Contratanos ya!</string>
+    <string name="grupo4_desc_larga">La estudiantina ha narrado las aventuras de los universitarios y en su repertorio incluyen "El examen", de Virgilio Fernández, "De colores", "El aventón" y "El fósil". En su mitad de siglo ha grabado a Tata Nacho, Agustín Lara y Guty Cárdenas, y a sus paisanos Juventino Rosas, María Greever, Joaquín Pardavé y José Alfredo. El escenario festivo que propone la rondalla lo complementa el ballet universitario al ritmo de jazz, tango, vals peruano, guaracha, danzón y cumbia.
+                                ¡Contratanos ya!</string>
+
+    <string name="grupo5_nombre">Banda Los Fuertes del Monte</string>
+    <string name="grupo5_desc_corta">Banda estilo sinaloense para fiestas además de que amenizamos todo tipo de eventos
+                                Vamos a cualquier parte de Toluca san Mateo Atenco, Metepec, Lerma, Santiago Tianguistenco, Ocoyoacac, Xonacatlan, Almoloya de Juárez etc...
+                                Más de 11 años nos avalan repertorio actual y tradicional
+                                Cobramos con equipo de audio nuestra vestimenta es típica de Sinaloa </string>
+    <string name="grupo5_desc_larga">Banda estilo sinaloense para fiestas además de que amenizamos todo tipo de eventos
+                                Vamos a cualquier parte de Toluca san Mateo Atenco, Metepec, Lerma, Santiago Tianguistenco, Ocoyoacac, Xonacatlan, Almoloya de Juárez etc...
+                                Más de 11 años nos avalan repertorio actual y tradicional
+                                Cobramos con equipo de audio nuestra vestimenta es típica de Sinaloa </string>
+
+    <string name="grupo6_nombre">Trio Los Urbina</string>
+    <string name="grupo6_desc_corta">Servicio con calidad los 365 días, del año somos la mejor repuesta por ser, 3 ex integrantes famosos de México como lo son: los panchos y los Dandy´s, los tecolines, chamin correa y los tres ases, los de México o trio los jaibos, trio los fantasmas, trio los soberanos, trio san juan y 4° armónico, entre otros.</string>
+    <string name="grupo6_desc_larga">Servicio con calidad los 365 días, del año somos la mejor repuesta por ser, 3 ex integrantes famosos de México como lo son: los panchos y los Dandy´s, los tecolines, chamin correa y los tres ases, los de México o trio los jaibos, trio los fantasmas, trio los soberanos, trio san juan y 4° armónico, entre otros.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
